@@ -1,0 +1,483 @@
+/* Medium Layout:1280px. */
+@media only screen and (min-width:992px) and (max-width:1200px) {
+	.about-text h3::before {
+    top: 17%;
+}
+.about-text {
+    padding: 120px 0px 0px;
+}
+.about-img {
+    padding: 120px 0px 80px;
+}
+.program-text h3::before {
+    top: 5%;
+}
+.program-icon i {
+    font-size: 55px;
+    padding: 10px 0px;
+}
+.admission-text h3 {
+    padding-top: 60px;
+}
+.admission-text p {
+    padding-top: 10px;
+    padding-right: 0px;
+}
+.admission-text {
+    padding-left: 5%;
+}
+.admission-text button {
+    margin-top: 30px;
+    padding: 2px 20px;
+    font-size: 17px;
+}
+.admission-text h3::before {
+    width: 8%;
+    top: 13%;
+}
+.campus-text h3::before {
+    width: 7%;
+    top: 21%;
+}
+.event-top {
+    text-align: center;
+    padding: 35px;
+    border-radius: 10px;
+    margin: -335px 0px 0px;
+}
+.event-top button {
+    margin-top: 45px;
+    padding: 6px 30px;
+}
+.event-area {
+    padding: 200px 0px 100px;
+}
+
+
+
+
+
+
+
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width:768px) and (max-width:991px) {
+	.navbar-nav li {
+    margin-left: 0px;
+}
+a.nav-link {
+    font-size: 13px;
+}
+a.navbar-brand img {
+    max-width: 70%;
+}
+.hero-content button {
+    margin-top: 50px;
+    padding: 3px 25px;
+    font-size: large;
+}
+.hero-content {
+    padding: 250px 0px 240px;
+}
+h3 {
+    font-size: 23px;
+}
+p {
+    font-size: 15px;
+}
+.about-text {
+    padding: 120px 0px 25px;
+}
+.about-text h3::before {
+    height: 5px;
+    top: 20%;
+}
+.about-img {
+    padding: 215px 0px 0px;
+}
+.program-icon i {
+    font-size: 40px;
+    padding: 0px 0px;
+}
+.program-icon p {
+    font-size: 10px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.program-icon {
+    text-align: center;
+    padding: 20px 0px;
+    border-radius: 10px;
+}
+.program-content {
+    padding: 40px 60px;
+}
+.program-text p {
+    padding-top: 15px;
+    padding-right: 5px;
+}
+.program-text {
+    padding-top: 16%;
+}
+.program-text h3::before {
+    height: 5px;
+    width: 13%;
+    top: 9%;
+}
+.facilities-area {
+    padding: 0px 0px 60px;
+}
+.facilities-img p {
+    padding: 4px 0px;
+    font-size: 13px;
+}
+.facilities-img2 p {
+    padding: 4px 0px;
+    font-size: 13px;
+}
+.facilities-text {
+    padding-top: 4%;
+    padding-left: 6%;
+}
+.facilities-text h3::before {
+    height: 5px;
+    top: 5%;
+}
+.admission-text h3 {
+    padding-top: 24px;
+}
+.admission-text h3::before {
+    height: 5px;
+    width: 8%;
+    top: 5%;
+}
+.admission-text p {
+    padding-top: 10px;
+    padding-right: 0px;
+    font-size: 13px;
+}
+.admission-text button {
+    margin: 12px 0px;
+    padding: 2px 12px;
+    font-size: 15px;
+}
+.admission-text {
+    padding-left: 5%;
+}
+.admission-img {
+    padding-left: 0%;
+}
+.campus-img {
+    padding: 50px 0px 200px;
+}
+.campus-text {
+    padding-top: 11%;
+    padding-left: 4%;
+}
+.campus-text h3::before {
+    height: 5px;
+    width: 8%;
+    top: 10%;
+}
+.campus-text a i {
+    font-size: 50px;
+    margin-top: 30px;
+}
+.link-text {
+    font-size: 20px;
+    margin-left: 12px;
+    margin-top: 40px;
+}
+.event-top {
+    padding: 25px;
+    margin: -300px 0px 0px;
+}
+.event-top p {
+    padding-top: 20px;
+}
+.event-top button {
+    margin-top: 25px;
+    padding: 5px 26px;
+    font-size: 14px;
+}
+.event-area {
+    padding: 200px 0px 40px;
+}
+.event-img img {
+    max-width:48%;
+}
+.event-img {
+    border-radius: 60%;
+    box-shadow: 0px 0px 15px 3px #00000021;
+}
+.event-text h6 {
+    padding: 19px 0px 10px;
+    font-size: 14px;
+}
+.event-text h5 {
+    font-size: 17px;
+}
+.event-text {
+    padding: 15px;
+}
+.contact-area {
+    padding: 40px 0px 10px;
+}
+.contact-list h5 {
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.contact-list ul li {
+    color: #54687d;
+    padding: 5px 0px;
+    font-size: 12px;
+}
+.contact-list ul li i {
+    margin-right: 5px;
+}
+.link-list h5 {
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+.link-list ul li a {
+    font-size: 12px;
+}
+.link-list ul li {
+    padding: 1px 0px;
+}
+.contact-text p {
+    padding-top: 25px;
+    font-size: 14px;
+}
+.foot-icon a i {
+    padding: 8px;
+    font-size: 15px;
+}
+.copy {
+    padding: 6px 0px;
+}
+}
+/* wide Mobile Layout;488px  */
+@media only screen and (min-width:480px) and (max-width:767px) {
+	
+}
+/* Mobile Layout: 320px;. */
+@media only screen and (max-width:767px) {
+	h3 {
+    font-size: larger;
+}
+	.event-text h6 {
+    padding: 0px 0px 0px;
+}
+.event-text h5 {
+    font-size: 13px;
+}
+.event-text h6 {
+    font-size: 11px;
+    padding-bottom: 5px;
+}
+.event-img img {
+    max-width: 36%;
+}
+.event-text {
+    padding: 20px 15px 0px;
+}
+.event-head h3 {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.event-head h3::before {
+    height: 4px;
+    width: 10%;
+    left: 45%;
+    top: 48%;
+}
+
+
+
+
+.navbar-brand img {
+    max-width: 60%;
+}
+.navbar-brand {
+    padding: 0px;
+}
+.navbar-toggler {
+    padding: 3px 8px;
+    font-size: 15px;
+}
+.bg-fade {
+    background: #000000bf;
+}
+.hero-content {
+    padding: 150px 0px 160px;
+}
+.hero-content h2 {
+    font-size: 25px;
+}
+.hero-content p {
+    padding-top: 25px;
+    font-size: 17px;
+}
+.hero-content button {
+    margin-top: 35px;
+    padding: 2px 25px;
+    font-size: medium;
+}
+.about-text {
+    padding: 70px 0px 0px;
+}
+.about-text h3::before {
+    height: 4px;
+    top: 11%;
+}
+.about-text h3 {
+    padding-bottom: 15px;
+}
+.about-text span {
+    font-size: 16px;
+}
+.about-text p {
+    padding-top: 5px;
+    padding-right: 0px;
+    font-size: 14px;
+    text-align: justify;
+}
+.about-img {
+    padding: 60px 0px;
+}
+.program-text {
+    padding-top: 0%;
+}
+.program-text h3::before {
+    height: 4px;
+    top: -5%;
+}
+.program-area {
+    padding:0px;
+}
+.program-content {
+    padding: 60px 20px 20px;
+}
+.program-text p {
+    padding: 10px 0px;
+    font-size: 15px;
+}
+.facilities-area {
+    padding: 25px 0px 40px;
+}
+.facilities-img img {
+    width: -moz-available;
+    width: -webkit-fill-available;
+}
+.facilities-img2 img {
+    width: -moz-available;
+    width: -webkit-fill-available;
+}
+.facilities-text {
+    padding-top: 20%;
+    padding-left: 5%;
+}
+.facilities-text p {
+    padding-top: 10px;
+    padding-right: 0px;
+    font-size: 15px;
+}
+.facilities-text h3::before {
+    height: 4px;
+    top: 18%;
+}
+.admission-text h3 {
+    padding-top: 60px;
+}
+
+.admission-text h3::before {
+    height: 4px;
+    width: 9%;
+    top: 9%;
+}
+.admission-text {
+    padding-left: 5%;
+}
+.admission-text button {
+    margin-top: 30px;
+    padding: 2px 20px;
+    font-size: 17px;
+}
+.col-sm-6.pr-0 {
+    padding-right: 15px !important;
+}
+.admission-img {
+    padding: 25px 0px;
+}
+.admission-img img {
+    border-radius: 15px;
+}
+.campus-img {
+    padding: 50px 0px 0px;
+}
+.campus-text h3::before {
+    height: 4px;
+    width: 8%;
+    top: 13%;
+}
+.event-top {
+    text-align: center;
+    padding: 32px;
+    border-radius: 15px;
+    margin: 25px 0px 0px;
+}
+.campus-text a i {
+    font-size: 50px;
+    margin:50px 20px 0px;
+}
+.campus-text {
+    padding: 27% 5% 15%;
+}
+.link-text {
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: 0px;
+}
+.event-top button {
+    margin-top: 25px;
+    padding: 5px 25px;
+}
+.event-area {
+    padding: 15px 0px 40px;
+}
+.contact-area {
+    padding: 30px 0px 0px;
+}.contact-text p {
+    padding-top: 15px;
+}
+.contact-list h5 {
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+.link-list h5 {
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+.foot-icon {
+    text-align: center;
+}
+.foot-icon a i {
+    padding: 8px;
+    font-size: 15px;
+    margin: 5px;
+}
+.copy {
+    padding: 5px 0px;
+    text-align: center !important;
+}
+.copy a {
+    color: #000000;
+    font-size: 15px;
+}
+#scrollUp {
+    bottom: 25px;
+    right: 15px;
+}
+}	

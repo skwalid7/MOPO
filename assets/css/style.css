@@ -1,0 +1,417 @@
+/*[Master Stylesheet]
+
+Project:    Project Name
+Version:    1.0
+Last change:    24/03/17 [fixed Float bug, vf]
+Author Name:Walid
+Primary use:    Project Type*/
+
+/*[Table of contents]
+
+1. Body
+2.*/
+
+
+/*==========================================
+Reset Css
+==========================================*/
+html{
+	scroll-behavior: smooth;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	margin: 0;
+	font-weight: bold;
+}
+p{
+	margin: 0;
+}
+/*Color*/
+.bg-fade{
+	background:#00000099;
+}
+.bg-mobo{
+	background: #6fed8d;
+}
+/* hero-area  */
+.hero-area{
+	background:url('../img/hero_bg.png');
+	background-position:center;
+	background-size:cover;
+}
+.hero-content {
+	padding: 25% 0%;
+}
+.hero-content h2 {
+	color:white;
+}
+.hero-content p {
+	color:  white;
+	padding-top: 30px;
+}
+.hero-content button {
+	margin-top: 50px;
+	padding: 5px 30px;
+	font-size: larger;
+}
+/*Start Nav css*/
+.navbar-nav li {
+	margin-left: 5px;
+}
+/*Start About css*/
+.about-text {
+	padding: 120px 0px 140px;
+}
+.about-text h3{
+	padding-bottom:20px;
+}
+.about-text h3::before {
+	content: '';
+	position: absolute;
+	height: 6px;
+	width: 8%;
+	background:#6fed8d;
+	top: 18%;
+	border-radius: 5px;
+}
+.about-text span {
+	color: #ffc61b;
+	font-size: 20px;
+	font-weight: bold;
+}
+.about-text p {
+	color: #54687d;
+	padding-top: 10px;
+	padding-right: 20px;
+}
+.about-img {
+	padding: 120px 0px;
+}
+/*Start Program area*/
+.program-area{
+	padding: 50px 0px;
+}
+.program-content {
+	background: #fafafa;
+	padding: 60px;
+}
+.program-icon {
+	text-align: center;
+	padding: 20px;
+	border-radius: 10px;
+}
+.program-icon i {
+	font-size: 70px;
+	padding: 20px 0px;
+}
+.program-icon p {
+	font-size: 16px;
+	font-weight: bold;
+}
+.col-sm-4 {
+	padding: 10px;
+}
+
+.drama-bg{
+	background: #efebff;
+}
+.drama{
+	color: #997fff;
+}
+.dance-bg{
+	background: #ffeeeb;
+}
+.dance{
+	color: #ff937f;
+}
+.music-bg{
+	background: #e8f2fc;
+}
+.music{
+	color:#87c1fc;
+}
+.painting-bg{
+	background: #ffebf3;
+}
+.painting{
+	color: #ff7fb2;
+}
+.robot-bg{
+	background: #dbf9fa;
+}
+.robot{
+	color: #6ad0d4;
+}
+.programming-bg{
+	background: #e9f9e4;
+}
+.programming{
+	color:#83d46a;
+}
+.program-text h3::before {
+	content: '';
+	position: absolute;
+	height: 6px;
+	width: 10%;
+	background:#6fed8d;
+	top: 8%;
+	border-radius: 5px;
+}
+.program-text {
+	padding-top: 10%;
+}
+.program-text p {
+	padding-top: 20px;
+	padding-right: 20px;
+}
+/*Start Our Facilities area*/
+.facilities-area{
+	padding: 60px 0px 130px;
+}
+.facilities-img p {
+	padding: 8px 0px;
+	text-align: center;
+	font-size: 18px;
+	border-radius: 0px 0px 10px 10px;
+}
+.facilities-img img {
+	margin: 25px 0px 0px;
+}
+.facilities-img2{
+	padding-top:50px;
+}
+.facilities-img2 p {
+	padding: 8px 0px;
+	text-align: center;
+	font-size: 18px;
+	border-radius: 0px 0px 10px 10px;
+}
+.facilities-img2 img {
+	margin: 25px 0px 0px;
+}
+.facilities-text h3::before {
+	content: '';
+	position: absolute;
+	height: 6px;
+	width: 10%;
+	background:#6fed8d;
+	top: 17%;
+	border-radius: 5px;
+}
+.facilities-text {
+	padding-top: 8%;
+	padding-left: 4%;
+}
+.facilities-text p {
+	padding-top: 20px;
+	padding-right: 20px;
+}
+/*Start Admission Css*/
+.admission-area{
+	background: #0f355c;
+}
+.admission-text h3::before {
+	content: '';
+	position: absolute;
+	height: 6px;
+	width: 6%;
+	background:#6fed8d;
+	top: 18%;
+	border-radius: 5px;
+}
+.admission-text h3 {
+	color: white;
+	padding-top:100px;
+}
+.admission-text {
+	padding-left: 13%;
+}
+.admission-img{
+	padding-left: 1%;
+}
+.admission-text p {
+	padding-top: 20px;
+	padding-right: 20px;
+	color: #babfc8;
+}
+.admission-text button {
+	margin-top: 40px;
+	padding: 5px 25px;
+	font-size: 20px;
+}
+/*Start Campus css*/
+.campus-area{
+	background: #ffffff;
+}
+.campus-img{
+	padding: 120px 0px 300px;
+}
+.campus-text h3::before {
+	content: '';
+	position: absolute;
+	height: 6px;
+	width: 6%;
+	background:#6fed8d;
+	top: 24%;
+	border-radius: 5px;
+}
+.campus-text {
+	padding-top: 23%;
+	padding-left: 2%;
+}
+.campus-text p {
+	padding-top: 20px;
+	padding-right: 20px;
+}
+.campus-text a i{
+	font-size: 70px;
+	color: #ffc107 !important;
+	margin-top: 40px;
+}
+.campus-text a {
+	color: #ffc107 !important;
+}
+.campus-text a i:hover{
+	color: #6fed8d !important;
+}
+.campus-text a:hover{
+	color: #6fed8d !important;
+}
+.link-text {
+	position: absolute;
+	font-size: 24px;
+	margin-left: 17px;
+	margin-top: 57px;
+	text-decoration: none;
+	color: #ffc107;
+}
+.link-text:hover {
+	color: #6fed8d;
+	text-decoration: none;
+}
+/*Start Upcoming event*/
+.event-area{
+	background: #ebf2fa;
+	padding: 300px 0px 100px;
+}
+.event-top {
+
+	text-align: center;
+	padding: 50px;
+	border-radius: 10px;
+	margin: -460px 0px 0px;
+}
+.event-top p {
+	padding-top: 30px;
+	color: 
+	#54687d;
+}
+.event-top button {
+	background:#0f355c;
+	color: white;
+	margin-top: 60px;
+	padding: 8px 44px;
+}
+.btn.book {
+	background:transparent;
+	color: #0f355c;
+	border: 2px solid;
+}
+.event-head h3::before {
+	content: '';
+	position: absolute;
+	height: 6px;
+	width: 6%;
+	background:#6fed8d;
+	top: 10%;
+	border-radius: 5px;
+	left: 47%;
+}
+.event-head h3{
+	padding-top: 20px;
+	color: #0f3551;
+	padding-bottom: 30px;
+}
+.event-img {
+	display: flex;
+	background:  white;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 1px #00000021;
+}
+.event-text{
+	padding: 20px;
+
+}
+.event-text h6 {
+	padding: 20px 0px 10px;
+	color:#666;
+}
+.up-event{
+	padding: 15px;
+}
+/*Start Contact Area*/
+.contact-area {
+	padding: 100px 0px 30px;
+}
+.contact-text p{
+	padding-top:30px; 
+}
+.contact-list h5 {
+	color: #54687d;
+	padding-bottom: 25px;
+}
+.contact-list ul li i {
+	margin-right: 12px;
+	color: black;
+}
+.contact-list ul li {
+	color:  #54687d;
+	padding:5px 0px;
+}
+.link-list ul li {
+	color:  #54687d;
+	padding:5px 0px;
+}
+.link-list ul li a{
+	color:  #54687d;
+}
+.link-list ul li a:hover{
+	color:  #666;
+	text-decoration: none;
+}
+.link-list h5 {
+	color: #54687d;
+	padding-bottom: 25px;
+}
+.foot-icon a i {
+    padding: 10px;
+    font-size: 20px;
+    background: #ececec;
+    color: #646460;
+    margin: 7px;
+    border-radius: 20px;
+}
+.foot-icon a:hover  i{
+    background: #6fed8d;
+}
+.copy a {
+    color: #666666;
+}
+.copy{
+padding: 15px 0px;
+}
+.copy a:hover{
+    color:#1eba2d;
+    text-decoration:  none;
+}
